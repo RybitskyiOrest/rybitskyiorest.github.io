@@ -1,9 +1,25 @@
 body {
 font-size: 20px;
+background-color: cyan;
 }
 h1, h2 {
     font-family: 'Merienda', cursive, sans-serif;
 }
 header {
-    background-color: rgb(206, 168, 241);
+    text-align: center;
 }
+main img {
+    max-width: 300px;
+    height: auto;
+}
+.columns {
+    display: block;
+    background-color: rgb(206, 177, 177);
+    text-align: center;
+    align-items: center;
+    margin:10px 10px 10px 10px ;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
