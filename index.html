@@ -40,15 +40,12 @@
       </main>
   
       <footer>
-        &#169; 2020 | Rybitskyi Orest | Ukraine | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
+        &#169; <span id="year"></span> | Rybitskyi Orest | Ukraine | <a href="https://www.byui.edu/online" target="_blank">BYUI Online
           Learning</a><br>
-        <span id="span">Last Updated: <span class="last-updated-time"></span></span>
+          <div>Last Modified &nbsp; <span id="modified"></span></div>
+          <script type="text/javascript" src="script.js"></script>
       </footer>
     </div>
   
-    <script>
-      let element = document.querySelector('.last-updated-time');
-          element.textContent = document.lastModified;
-    </script>
   </body>
 </html>
