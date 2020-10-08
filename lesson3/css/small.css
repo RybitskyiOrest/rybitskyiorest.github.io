@@ -52,3 +52,31 @@ main {
   margin-right: auto;
     
 }
+main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+main ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.3rem;
+    background-color: #0773ed;
+    color: #bff0d4;
+}
+main a:hover {
+	background-color: #eeaf1b;
+	color:#0773ed ;
+}
+#fonts h1, h2, h3, h4, h5 {
+    font-family: 'Fanwood Text', serif;
+}
+#fonts p {
+    font-family: 'Crimson Pro', serif;
+}
+#fonts {
+    text-align: center;
+}

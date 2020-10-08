@@ -6,6 +6,13 @@
         flex: 1 1 100%
      }
      main {
-		grid-template-columns: 1fr;
-	}
+        grid-template-columns: 1fr;
+    }
+    main ul {
+        display: flex;
+        margin: 10px;
+    }
+    main ul li {
+        flex: 1 1 100%
+    }
 }
