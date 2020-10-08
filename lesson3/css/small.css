@@ -5,11 +5,11 @@ body {
 }
 header, footer {
     display: flex;
-	flex-flow: column;
+    flex-flow: column;
+    flex: 0 1 100%;
 	align-items: center;
     justify-content: center;
     background-color: rgb(126, 162, 177);
-    flex: 0 1 100%;
 }
 nav {
     background-color: rgb(126, 162, 177);
@@ -24,8 +24,8 @@ nav ul li a {
     display: block;
     text-align: center;
     text-decoration: none;
-    padding: 15px;
-    font-size: 2rem;
+    padding: 10px;
+    font-size: 1.2rem;
     color: rgb(53, 32, 53);
 }
 nav a:hover {
@@ -34,4 +34,21 @@ nav a:hover {
 }
 .active {
 	color: white;
+}
+main {
+    display: flex;
+    flex-flow: column;
+    flex: 0 1 100%;
+}
+#logo {
+    width: 20vh;
+	height: auto;
+}
+#colors-img {
+    max-width: 40vh;
+    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
 }
