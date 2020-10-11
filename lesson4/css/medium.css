@@ -12,4 +12,5 @@
   .navigation li:first-child {
       display: none;
   }
+  font-size: 1em;
 }
