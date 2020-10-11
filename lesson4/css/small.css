@@ -2,6 +2,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     font-size: 20px;
+    padding: 0.5em;
 }
 h1, h2, h3, h4 {
     font-family: 'Fanwood Text', serif;
@@ -9,18 +10,13 @@ h1, h2, h3, h4 {
 .content, p { 
     font-family: 'Crimson Pro', serif;
 }
-header {
+.heading-l {
     background-color:  #bff0d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.heading-l img {
-    margin: 1em;
-}
-.heading-l {
-    align-items: left;
-    display: flex; 
-    font-size: 1.3em;
-}
 .content {
     padding: 1em;
     margin-bottom: 2em;
@@ -55,9 +51,12 @@ background-color: #eeaf1b ;
 .responsive li {
     display: block;
 }
+#placeholder {
+    width: 100%;
+}
 footer {
     background-color: #bff0d4;
 }
 .footer {
-    align-items: center;
+text-align: center;
 }
