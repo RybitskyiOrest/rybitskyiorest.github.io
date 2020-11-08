@@ -16,8 +16,13 @@ h1, h2, h3, h4 {
     align-items: center;
     justify-content: center;
 }
-main {
-
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color:  #bff0d4;
 }
 .content {
     padding: 1em;

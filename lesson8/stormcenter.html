@@ -40,35 +40,36 @@
             </nav>
         </header>
         <main>
+            <div class="container">
             <h2>Storm Report</h2>
             <form action="thanks.html" method="GET">   
                   <label class="">
-                      Full name*
+                      Full Name*<br>
                     <input id="name" type="text" name="name" required pattern="[A-Z a-z -_]{5,50}">
                   </label>
                   <br>
                   <label class="">
-                    Email*
+                    Email*<br>
                     <input id="email" type="email" name="email" placeholder="*******@gmail.com">
                   </label>
                   <br>
                   <label class="">
-                    Phone Number*
+                    Phone Number*<br>
                     <input id="phone" type="tel" name="phone" placeholder="**********" required>
                   </label>
                   <br>
                   <label class="">
-                    Zip Code*
+                    Zip Code*<br>
                     <input id="zipcode" type="number" name="zip" required placeholder="*******">
                   </label>  
                   <br> 
                   <label class="">
-                    Storm Date*
+                    Storm Date*<br>
                     <input id="date" type="date" name="stormdate">
                   </label>
                   <br>
                   <label class="">
-                    Storm Type*
+                    Storm Type*<br>
                     <input name="stormtype" id="stormtype" list="stormtypes"/></label>
                   
                     <datalist id="stormtypes">
@@ -101,7 +102,7 @@
                   <label class "">
                     Storm Region
                     <select name="region" id="region">
-                        <option value="Select" disabled selected>Select Region</option>
+                        <option value="Select" disabled selected>select region</option>
                         <option value="Preston">Preston</option>
                         <option value="SodaSprings">Soda Springs</option>
                         <option value="FishHaven">Fish Haven</option>
@@ -117,17 +118,16 @@
                     <label class="sbs"><input type="radio" name="dangerlevel" value="Maybe"> Maybe </label>
                   </div> 
                     <legend>
-            <br>
                     <h3>Additional Information</h3>
                     </legend>
             
                     <label class="top">
-                      <br>
-                      <textarea id="Ainfo" name="Ainfo" rows="12" cols="20"></textarea>
+                      <textarea id="Ainfo" name="Ainfo" rows="5" ></textarea>
                     </label>
                     <br>
                     <input class="submitBtn" type="submit" name="submit" value=" Report">
             </form>
+            </div>
         </main>
         <footer>
             <div class="content_s">
