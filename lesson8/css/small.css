@@ -29,6 +29,14 @@ h1, h2, h3, h4 {
     margin-bottom: 2em;
     border: dashed;
 }
+#ty {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color:  #bff0d4;
+}
 nav {
     margin: 0 auto;
 }

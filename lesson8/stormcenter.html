@@ -12,6 +12,11 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
         <link rel="stylesheet" href="main.css">
+        <script>
+            function adjustRating(rating) {
+             document.getElementById("ratingvalue").innerHTML = rating;
+             }
+        </script>
     </head>
     <body>
         <div class="pop" id="pop">
@@ -60,7 +65,7 @@
                   <br>
                   <label class="">
                     Zip Code*<br>
-                    <input id="zipcode" type="number" name="zip" required placeholder="*******">
+                    <input id="zipcode" type="number" name="zip" placeholder="*******" required>
                   </label>  
                   <br> 
                   <label class="">
@@ -111,9 +116,9 @@
                   <br>
                   <div class="">
                     <h4>User in Danger</h4>
-                    <label class="sbs"><input type="radio" name="dangerlevel" value="No"> No </label>
-                    <br>
                     <label class="sbs"><input type="radio" name="dangerlevel" value="Yes"> Yes </label>
+                    <br>
+                    <label class="sbs"><input type="radio" name="dangerlevel" value="No"> No </label>
                     <br>
                     <label class="sbs"><input type="radio" name="dangerlevel" value="Maybe"> Maybe </label>
                   </div> 
