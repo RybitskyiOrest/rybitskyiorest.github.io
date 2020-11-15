@@ -4,7 +4,7 @@ body {
     padding: 1rem;
 }
 main {
-    background-color: rgb(198, 207, 226);
+    background-color: rgb(129, 129, 129);
     align-items: center;
     padding: 2rem;
  }   
@@ -16,7 +16,7 @@ main {
     margin: .25rem;
     text-align: center;
     align-items: center;
-    background-color: rgb(145, 165, 194);
+    background-color: rgb(211, 224, 243);
     border: 1px dotted;
 }
 .cards section h2 {
