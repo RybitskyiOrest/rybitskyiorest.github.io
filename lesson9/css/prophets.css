@@ -1,38 +1,35 @@
 body { 
     justify-content: center;
     text-align: center;
-    background-color: tan;
+    padding: 1rem;
 }
 main {
-    background-color: rgb(94, 201, 201);
+    background-color: rgb(132, 179, 179);
     align-items: center;
-}
-h1 {
-    font-size: 5rem;
-}
+    padding: 2rem;
+ }   
 .cards {
     display: grid;
     grid-template-columns: 1fr; 
 }
-.cards section img {
-    width: auto;
-    margin:1rem;
-}
 .cards section {
-    margin: 1rem;
+    margin: .25rem;
     text-align: center;
     align-items: center;
-    background-color: rgb(42, 95, 95);
-    border: 1px dotted rgb(87, 87, 95);
+    background-color: rgb(165, 167, 146);
+    border: 1px dotted;
 }
 .cards section h2 {
-    font-size: 3rem;
+    padding: .25rem;
 }
 .cards section p {
-    font-size: 2rem;
-    padding: 1rem;
+    padding: .1rem;
 }
-
+.cards section img {
+    width: 10rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
 @media only screen and (min-width: 37.5em) {
     .cards {
         display: grid;
