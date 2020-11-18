@@ -12,11 +12,6 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
         <link rel="stylesheet" href="main.css">
-        <script>
-            function adjustRating(rating) {
-             document.getElementById("ratingvalue").innerHTML = rating;
-             }
-        </script>
     </head>
     <body>
         <div class="pop" id="pop">
@@ -50,7 +45,7 @@
             <form action="thanks.html" method="GET">   
                   <label class="">
                       Full Name*<br>
-                    <input id="name" type="text" name="name" required pattern="[A-Z a-z -_]{5,50}">
+                    <input id="name" type="text" name="name" required pattern="[A-Z a-z]">
                   </label>
                   <br>
                   <label class="">
@@ -154,6 +149,7 @@
         </footer>
         <script src="js/hamburger.js"></script>
         <script src="js/pop.js"></script>
+        <script src="js/adjustRating.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>WebFont.load({google: {families: ['Crimson+Pro']}});</script>
 </body>
