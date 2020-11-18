@@ -43,6 +43,40 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 50px ;
     }
+    main {
+        background-color: rgb(183, 226, 236);
+        align-items: center;
+        padding: 1rem;
+        max-width: 100%;
+     }   
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+    .cards section {
+        margin: .25rem;
+        text-align: center;
+        align-items: center;
+        background-color: rgb(211, 224, 243);
+        border: 1px dotted;
+        display: block;
+    }
+    .cards section img {
+        width: 90%;
+        margin-top: 1rem;
+    }
+    #rain {
+        margin-top: 10rem;
+        width: 90%;
+    }
+    #rainp {
+        display: grid;
+        grid-template-columns: 45% 55%;
+    }
+    #rainp h3, p {
+        text-align: center;
+    }
     
 }
 
