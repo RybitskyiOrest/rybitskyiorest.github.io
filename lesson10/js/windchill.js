@@ -1,5 +1,4 @@
-
-let hElement = document.getElementById("ht");
+let hElement = document.getElementById("t");
 let wElement = document.getElementById("w");
 let cElement = document.getElementById("c");
 let h = parseInt(hElement.textContent);
