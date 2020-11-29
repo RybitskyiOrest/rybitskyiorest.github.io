@@ -52,7 +52,7 @@ fetch(apiURL)
     let town = jsonObj["towns"];
   
     for (let i = 0; i < town.length; i++) {
-      if (town[i].name == "Fish Heavens") {
+      if (town[i].name == "Fish Haven") {
         let article = document.getElementById("events");
         let para1 = document.createElement("ul");
   
