@@ -19,6 +19,7 @@
         text-align: center;
         margin-bottom: 2em;
         border: ridge;
+        width: 150px;
     }
     table {
         margin-left:auto; 
