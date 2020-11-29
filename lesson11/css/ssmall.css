@@ -122,3 +122,6 @@ div.hide {
   .pop {
       display: none;
   }
+  main {
+    background-color: rgb(246, 250, 255);
+}

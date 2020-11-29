@@ -136,11 +136,8 @@ div.hide {
   .pop {
       display: none;
   }
-
-
-
   main {
-    background-color: rgb(183, 226, 236);
+    background-color: rgb(246, 250, 255);
     align-items: center;
     padding: 1rem;
     max-width: 100%;
@@ -148,7 +145,6 @@ div.hide {
 .cards {
     display: grid;
     grid-template-columns: 1fr;
-
 }
 .cards section:nth-of-type(1) {
     display: none;
