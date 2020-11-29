@@ -48,6 +48,10 @@ nav {
 color: #bff0d4;
 background-color: #eeaf1b ;
 }
+.navigation .active {
+    background-color: #eeaf1b ;
+    border: dotted;
+}
 .responsive li {
     display: block;
 }
@@ -95,7 +99,7 @@ position: static;
     display: none;
 }
 .pop_up {
+    display: none;
     text-align: center;
     background-color: #eeaf1b;
-}
 }
