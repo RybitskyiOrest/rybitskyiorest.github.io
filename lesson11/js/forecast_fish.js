@@ -39,7 +39,6 @@ fetch(apiURL)
     c = 35.74 + 0.6215 * h - 35.75 * Math.pow(w, 0.16) + 0.4275 * h * Math.pow(w, 0.16);
     cElement.textContent = Math.round(c) + ' ℉';
   }
-  
   let requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
   let request = new XMLHttpRequest();
   request.open("GET", requestURL);
@@ -53,7 +52,7 @@ fetch(apiURL)
     let town = jsonObj["towns"];
   
     for (let i = 0; i < town.length; i++) {
-      if (town[i].name == "Fish Haven") {
+      if (town[i].name == "Fish Heavens") {
         let article = document.getElementById("events");
         let para1 = document.createElement("ul");
   
@@ -62,9 +61,12 @@ fetch(apiURL)
           listItem.textContent = town[i].events[a];
           para1.appendChild(listItem);
         }
+  
         article.appendChild(para1);
+  
       }
     }
   }
+
   })
 });

@@ -39,7 +39,6 @@ fetch(apiURL)
     c = 35.74 + 0.6215 * h - 35.75 * Math.pow(w, 0.16) + 0.4275 * h * Math.pow(w, 0.16);
     cElement.textContent = Math.round(c) + ' ℉';
   }
-   
   let requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
   let request = new XMLHttpRequest();
   request.open("GET", requestURL);
