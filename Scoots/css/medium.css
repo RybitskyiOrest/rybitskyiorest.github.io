@@ -30,19 +30,12 @@
   .forecast h2 {
       text-align: center;
   }
-  #pics {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px ;
-}
-.cards section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} 
-.cards section:nth-child(6) img {
-    grid-column: 2;
-    align-items: center;
-}
-.cards section:nth-child(6) {
-    grid-auto-flow: row dense;  
-}
-  }
+.map {
+   
+    }
+    #logo {
+        margin-left: 7rem;
+    }
+    #motto {
+        margin: 4rem;
+    }

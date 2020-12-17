@@ -1,5 +1,4 @@
 body {
-    
     margin: 0 auto;
     font-size: 20px;
     padding: 0.5em;
@@ -12,34 +11,11 @@ h1, h2, h3, h4 {
     border-radius: 100%;
     margin-left: 7rem;
 }
-#map {
-display: grid;
-grid-template-columns: 1fr 1fr;
-margin-top: 4rem;
-justify-items: center;
-}
 #motto {
     margin: 4rem;
 }
 #locations {
     text-align: center;
-}
-
-#info {
-    text-align: center;
-}
-#type {
-    margin: 0 8rem 0 8rem;
-    padding: 0 3rem 0 3rem ;
-    border: solid;
-}
-.content, p { 
-    font-family: 'Catamaran', serif;
-}
-#info2 {
-    margin: 0 8rem 0 8rem;
-    padding: 0 3rem 0 3rem ;
-    border: solid;
 }
 .heading-l {
     display: flex;
@@ -48,7 +24,6 @@ justify-items: center;
     background-image: url(../images/island.png);
     background-size: cover;
 }
-
 .content {
     padding: 1em;
     margin-bottom: 2em;
@@ -123,14 +98,6 @@ footer {
 .footer {
 text-align: center;
 position: static;
-
-}
-.forecast {
-    display: none;
-}
-.pop {
-    text-align: center;
-    background-color: #eeaf1b;
 }
 div.show {
     display: block;
@@ -162,58 +129,27 @@ div.hide {
     background: #fff;
     float: left;
     text-align: center;
-    
   }
   .picture:hover {
     box-shadow: 0 0 10px #000000; 
   }
-  .pop {
-      display: none;
-  }
   main {
     background-color: #f8f862;
     align-items: center;
+    justify-content: center;
     padding: 1rem;
     max-width: 100%;
  }   
-.cards {
+ .slides0 {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
 }
-.cards section:nth-of-type(1) {
-    display: none;
-} 
-.cards section:nth-of-type(3) {
-    display: none;
-} 
-.cards section:nth-of-type(4) {
-    display: none;
-} 
-.cards section:nth-of-type(5) {
-    display: none;
-} 
-.cards section {
-    margin: .25rem;
+#table th {
+    border: solid;
     text-align: center;
-    align-items: center;
-    background-color: rgb(211, 224, 243);
-    border: 1px dotted;
-    display: grid;
-    grid-template-columns: 1fr;
 }
-.cards section img {
-    width: 100%;
-    margin-top: 1rem;
-}
-#rain {
-    margin-top: 10rem;
-    width: 100%;
-    align-items: center;
-}
-#rainp {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-#rainp h3, p {
+#table td {
+    border: solid;
     text-align: center;
 }
