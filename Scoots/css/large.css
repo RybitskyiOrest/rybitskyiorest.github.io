@@ -7,19 +7,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
     }
-    .ws {
-        text-align: center;
-        font-size: 1rem;
-        width: 20%;
-        max-height: 15%;
-        position: relative;
-        box-shadow: 5px 5px 4px #302a2a;
-        background: rgba(29, 172, 238, 0.7);
-        padding: 1rem;
-        margin-top: -400px;
-        margin-bottom: 250px;
-        margin-left: 40px;
-    }
+
     .tbl td {
         text-align: center;
         margin-bottom: 2em;
@@ -35,7 +23,10 @@
         text-align: center;
     }
     .forecast {
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: dotted;
+        margin: 2rem;
     }
     #img_s {
         display: block;
