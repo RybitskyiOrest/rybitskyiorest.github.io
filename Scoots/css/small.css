@@ -128,13 +128,27 @@ main {
     justify-items: center
 }
 
+#table th {
+    border: solid;
+    text-align: center
+}
+
 #table td {
     border: solid;
     text-align: center
 }
 
+#table {
+    padding: 1em;
+}
 #info2 {
     margin: 0 8rem 2rem 8rem;
+    padding: 0 3rem 0 3rem;
+    border: solid
+}
+
+.container {
+    margin: 2rem 8rem 0 8rem;
     padding: 0 3rem 0 3rem;
     border: solid
 }
@@ -151,3 +165,4 @@ main {
     height: 5rem;
     font-size: 1.5em
 }
+
