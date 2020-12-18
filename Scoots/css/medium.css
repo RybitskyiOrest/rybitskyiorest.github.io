@@ -55,11 +55,12 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 50px ;
     }
-    #ads {
+    .ads {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin:2em;
         padding:2em;
         border: dashed;
     }
+
 }
