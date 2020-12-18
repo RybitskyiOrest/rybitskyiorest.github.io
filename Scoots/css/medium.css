@@ -69,4 +69,9 @@
     .button {
         margin: 5rem 0 5rem 0;
     }
+    #info2 {
+        margin: 2vm 8vm 0 8vm;
+        padding: 0 5em 2em 5em;
+        border: solid
+    }
 }
