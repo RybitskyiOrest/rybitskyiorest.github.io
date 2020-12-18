@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="WDD 230 / Scoots">
-        <title>Rybitskyi Orest WDD 230 / Scoots</title>
-        <link rel="icon" href="../favicon.ico">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Yeon+Sung&display=swap">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="stylesheet" href="css/small.css">
-        <link rel="stylesheet" href="css/medium.css">
-        <link rel="stylesheet" href="css/large.css">
-    </head>
-    <body>
-      <header>
-            <div class="heading-l">  
-            <div class="heading">  
-            <h1>Spend time Better</h1>
-            <h2 id="motto">Discover the island of Cozumel with us!</h2>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 / Scoots">
+    <title>Rybitskyi Orest WDD 230 / Scoots</title>
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Yeon+Sung&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <div class="heading-l">
+            <div class="heading">
+                <h1>Spend time Better</h1>
+                <h2 id="motto">Discover the island of Cozumel with us!</h2>
             </div>
             <img src="images/logo.png" alt="logo" id="logo">
-            </div>
-            <nav>
-                <ul class="navigation">
-                    <li><a class="menu" href="#">&#9776; Menu</a></li>
-                    <li><a class="active" href="https://rybitskyiorest.github.io/Scoots/index.html">Home</a></li>
-                    <li><a href="https://rybitskyiorest.github.io/Scoots/rentals.html">Rentals</a></li>
-                    <li><a href="https://rybitskyiorest.github.io/Scoots/reservations.html">Reservations</a></li>
-                    <li><a href="https://rybitskyiorest.github.io/Scoots/tours.html">Tours</a></li>
-                    <li><a href="https://rybitskyiorest.github.io/Scoots/contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-     <div class="slides0">
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="menu" href="#">&#9776; Menu</a></li>
+                <li><a class="active" href="https://rybitskyiorest.github.io/Scoots/index.html">Home</a></li>
+                <li><a href="https://rybitskyiorest.github.io/Scoots/rentals.html">Rentals</a></li>
+                <li><a href="https://rybitskyiorest.github.io/Scoots/reservations.html">Reservations</a></li>
+                <li><a href="https://rybitskyiorest.github.io/Scoots/tours.html">Tours</a></li>
+                <li><a href="https://rybitskyiorest.github.io/Scoots/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="slides0">
             <div class="slides" style="max-width:500px">
                 <img class="mySlides" src="images/s1.jpg" style="width:25vw" alt="scoots">
                 <img class="mySlides" src="images/s2.jpg" style="width:25vw" alt="scoots">
                 <img class="mySlides" src="images/s3.jpg" style="width:25vw" alt="scoots">
-              </div>
-               <button class="button" onclick="document.location='https://rybitskyiorest.github.io/Scoots/reservations.html'">Rent these Now!</button> 
-              <div class="slides2" style="max-width:500px">
+            </div>
+            <button class="button"
+                onclick="document.location='https://rybitskyiorest.github.io/Scoots/reservations.html'">Rent these
+                Now!</button>
+            <div class="slides2" style="max-width:500px">
                 <img class="mySlides2" src="images/c1.jpg" style="width:25vw" alt="car">
                 <img class="mySlides2" src="images/c2.jpg" style="width:25vw" alt="car">
                 <img class="mySlides2" src="images/c3.jpg" style="width:25vw" alt="car">
-              </div>
-         </div>
+            </div>
+        </div>
         <div class="forecast">
             <div class="ws">
                 <h2>Weather now in Cozumel</h2>
@@ -55,99 +60,106 @@
                 <p>Wind Speed: <span id="w">N/A</span></p>
             </div>
             <div>
-            <h2>Five Day Forecast</h2>
-            <table>
-                <tr class="tbl">
-                    <td id="dayofweek1"></td>
-                    <td id="dayofweek2"></td>
-                    <td id="dayofweek3"></td>
-                    <td id="dayofweek4"></td>
-                    <td id="dayofweek5"></td>
-                </tr>
-                <tr class="tbl">
-                    <td><img src="images/Placeholder.png" alt="placeholder" id="icon1"></td>
-                    <td><img src="images/Placeholder.png" alt="placeholder" id="icon2"></td>
-                    <td><img src="images/Placeholder.png" alt="placeholder" id="icon3"></td>
-                    <td><img src="images/Placeholder.png" alt="placeholder" id="icon4"></td>
-                    <td><img src="images/Placeholder.png" alt="placeholder" id="icon5"></td>
-                
-                </tr>
-                <tr class="tbl">
-                    <td id="forecast1"></td>
-                    <td id="forecast2"></td>
-                    <td id="forecast3"></td>
-                    <td id="forecast4"></td>
-                    <td id="forecast5"></td>        
-                </tr>
-            </table>
-        </div>
-        </div>
-          <div>
-              <h2 id="info">Rental Information</h2>
-              <div id="type">
-              <h3>Type of Rentals</h3>
-              <p>Honda Motor Scooters</p>
-              <ul>
-                  <li>Honda Metropolitan (49cc) - 1 person</li>
-                  <li>Honda Dio (110cc) - 2 person</li>
-                  <li>Honda PCX150 (149cc) - 2 person</li>
-              </ul>
-              <p>ATV Side-by-Side</p>
-              <ul>
-                  <li>Honda Pioneer 1000</li>
-              </ul>
-              <p>Jeep Rentals</p>
-              <ul>
-                  <li>4-door Jeep Wrangler - manual with A/C - 5 people max</li>
-                  <li>2-door Jeep Wrangler - open air - manual - 4 people max</li>
-              </ul>
-              </div>
-              <br>
-              <div id="info2">
-              <h3>Information and Services</h3>
-              <ul>
-                  <li>A $50 security deposit is required to confirm reservations.</li>
-                  <li>A valid drivers license is required in hand at time of rental.</li>
-                  <li>No one under 12 years of age are allowed to ride on the scooters.</li>
-                  <li>Fuel charge not included.</li>
-                  <li>Unlimited mileage.</li>
-                  <li>Liability insurance is free of charge.</li>
-                  <li>Reservations rate requires 24 hour prior notification.</li>
-                  <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
-                  <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
-                  <li>Rentals may be returned to either location.</li>
-              </ul>
+                <h2>Five Day Forecast</h2>
+                <table>
+                    <tr class="tbl">
+                        <td id="dayofweek1"></td>
+                        <td id="dayofweek2"></td>
+                        <td id="dayofweek3"></td>
+                        <td id="dayofweek4"></td>
+                        <td id="dayofweek5"></td>
+                    </tr>
+                    <tr class="tbl">
+                        <td><img src="images/Placeholder.png" alt="placeholder" id="icon1"></td>
+                        <td><img src="images/Placeholder.png" alt="placeholder" id="icon2"></td>
+                        <td><img src="images/Placeholder.png" alt="placeholder" id="icon3"></td>
+                        <td><img src="images/Placeholder.png" alt="placeholder" id="icon4"></td>
+                        <td><img src="images/Placeholder.png" alt="placeholder" id="icon5"></td>
+
+                    </tr>
+                    <tr class="tbl">
+                        <td id="forecast1"></td>
+                        <td id="forecast2"></td>
+                        <td id="forecast3"></td>
+                        <td id="forecast4"></td>
+                        <td id="forecast5"></td>
+                    </tr>
+                </table>
             </div>
-          </div>
-          <h2 id="locations">Locations where to Rent</h2>
-          <div id="map">
-                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2642.3747321303586!2d-86.95161072366265!3d20.511055472648014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDMwJzQxLjkiTiA4NsKwNTYnNTguNCJX!5e0!3m2!1suk!2sus!4v1608104089421!5m2!1suk!2sus" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1111.242758447712!2d-86.97542515188954!3d20.475039747453426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDI4JzMxLjIiTiA4NsKwNTgnMjkuOCJX!5e0!3m2!1suk!2sus!4v1608104801564!5m2!1suk!2sus" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          </div>
+        </div>
+        <div>
+            <h2 id="info">Rental Information</h2>
+            <div id="type">
+                <h3>Type of Rentals</h3>
+                <p>Honda Motor Scooters</p>
+                <ul>
+                    <li>Honda Metropolitan (49cc) - 1 person</li>
+                    <li>Honda Dio (110cc) - 2 person</li>
+                    <li>Honda PCX150 (149cc) - 2 person</li>
+                </ul>
+                <p>ATV Side-by-Side</p>
+                <ul>
+                    <li>Honda Pioneer 1000</li>
+                </ul>
+                <p>Jeep Rentals</p>
+                <ul>
+                    <li>4-door Jeep Wrangler - manual with A/C - 5 people max</li>
+                    <li>2-door Jeep Wrangler - open air - manual - 4 people max</li>
+                </ul>
+            </div>
+            <br>
+            <div id="info2">
+                <h3>Information and Services</h3>
+                <ul>
+                    <li>A $50 security deposit is required to confirm reservations.</li>
+                    <li>A valid drivers license is required in hand at time of rental.</li>
+                    <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+                    <li>Fuel charge not included.</li>
+                    <li>Unlimited mileage.</li>
+                    <li>Liability insurance is free of charge.</li>
+                    <li>Reservations rate requires 24 hour prior notification.</li>
+                    <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+                    <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                    <li>Rentals may be returned to either location.</li>
+                </ul>
+            </div>
+        </div>
+        <h2 id="locations">Locations where to Rent</h2>
+        <div id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2642.3747321303586!2d-86.95161072366265!3d20.511055472648014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDMwJzQxLjkiTiA4NsKwNTYnNTguNCJX!5e0!3m2!1suk!2sus!4v1608104089421!5m2!1suk!2sus"
+                width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1111.242758447712!2d-86.97542515188954!3d20.475039747453426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDI4JzMxLjIiTiA4NsKwNTgnMjkuOCJX!5e0!3m2!1suk!2sus!4v1608104801564!5m2!1suk!2sus"
+                width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
 
 
-        </main>
-        <footer>
-            <div class="content_s">
-                <h2>SCOOTS RENTALS</h2>
-                <p>Av. Rafael E. Melgar 1, Centro, 77600 San Miguel de Cozumel, Q.R., Mexico</p>
-                <p>77600 San Miguel de Cozumel, Quintana Roo, Mexico</p>
-                <p>+529-87-85-73-084</p>
-                <p>scootsrentalsc.net</p>
-                <a href="https://www.facebook.com/"> <img src="images/facebook.png" alt="logo"></a>
-                <a href="https://twitter.com/"> <img src="images/twitter.png" alt="logo"></a>
-                <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="logo"></a>
-            </div>
-            <div class="footer">
-                &#169; Scoots | Attributions | Rybitskyi Orest
-                <div>Last Modified &nbsp; <span id="modified"></span></div>
-                <br>
-            </div>
-        </footer>
-        <script type="text/javascript" src="../script.js"></script>
-        <script src="js/forecast.js"></script>
-        <script src="js/hamburger.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script src="js/carusel.js"></script>
+    </main>
+    <footer>
+        <div class="content_s">
+            <h2>SCOOTS RENTALS</h2>
+            <p>Av. Rafael E. Melgar 1, Centro, 77600 San Miguel de Cozumel, Q.R., Mexico</p>
+            <p>77600 San Miguel de Cozumel, Quintana Roo, Mexico</p>
+            <p>+529-87-85-73-084</p>
+            <p>scootsrentalsc.net</p>
+            <a href="https://www.facebook.com/"> <img src="images/facebook.png" alt="logo"></a>
+            <a href="https://twitter.com/"> <img src="images/twitter.png" alt="logo"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="logo"></a>
+        </div>
+        <div class="footer">
+            &#169; Scoots | Attributions | Rybitskyi Orest
+            <div>Last Modified &nbsp; <span id="modified"></span></div>
+            <br>
+        </div>
+    </footer>
+    <script type="text/javascript" src="../script.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/carusel.js"></script>
 </body>
+
 </html>
