@@ -36,8 +36,39 @@
         </nav>
     </header>
     <main>
-
-
+          <div class="container">
+              <h2>Have some questions that need to be answered?</h2>
+            <h3>Leave your contact information and we will get back to you as soon as possible!</h3>
+            <form action="thanks2.html" method="GET">
+              <label>
+                Full Name<br>
+                <input id="name" type="text" name="name" pattern="[a-zA-Z]{5,}" placeholder="name">
+              </label>
+              <br>
+              <label>
+                Email<br>
+                <input id="email" type="email" name="email" placeholder="*******@gmail.com">
+              </label>
+              <br>
+              <label>
+                Phone Number<br>
+                <input id="phone" type="tel" name="phone" placeholder="**********">
+              </label>
+              <br>
+              <div>
+                <p>Type here any question that you have</p>
+              </div>
+              <label class="top">
+                <textarea id="Ainfo" name="Ainfo" rows="5"></textarea>
+              </label>
+              <br>
+              <input class="submitBtn" type="submit" name="submit" value=" Report">
+            </form>
+          </div>
+          <h2 id="locations">Locations where to Rent</h2>
+        <div class="google-maps">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1MnTBSk7uA_ION55Af6rba6TI8IcLEr04" width="640" height="480"></iframe>
+        </div>
     </main>
     <footer>
         <div class="content_s">

@@ -38,8 +38,11 @@
         text-align: center;
     }
 
-    .map {}
-
+    .container {
+        margin: 2em 8em 0 8em;
+        padding: 0 3em 0 3em;
+        border: solid
+    }
     #logo {
         margin-left: 7rem;
     }
