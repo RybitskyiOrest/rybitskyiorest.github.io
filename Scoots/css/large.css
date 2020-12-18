@@ -43,16 +43,6 @@
         .content, p { 
             font-family: 'Catamaran', serif;
         }
-        #info2 {
-            margin: 0 8rem 0 8rem;
-            padding: 0 3rem 0 3rem ;
-            border: solid;
-        }
-        .container {
-            margin: 0 8rem 0 8rem;
-            padding: 0 3rem 0 3rem ;
-            border: solid;
-        }
 }
 
 
