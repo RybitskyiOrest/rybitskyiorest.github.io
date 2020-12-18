@@ -78,6 +78,10 @@ nav {
     border: dotted
 }
 
+.responsive li {
+    display: block;
+}
+
 #placeholder {
     width: 100%
 }
