@@ -62,5 +62,11 @@
         padding:2em;
         border: dashed;
     }
-
+    .slides0 {
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center
+    }
+    .button {
+        margin: 5rem 0 5rem 0;
+    }
 }
