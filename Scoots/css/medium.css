@@ -39,9 +39,10 @@
     }
 
     .container {
-        margin: 2em 8em 0 8em;
-        padding: 0 3em 0 3em;
+        margin: 2vm 8vm 0 8vm;
+        padding: 0 5em 2em 5em;
         border: solid
+     
     }
     #logo {
         margin-left: 7rem;
@@ -53,5 +54,12 @@
     #pics {
         grid-template-columns: 1fr 1fr;
         grid-gap: 50px ;
+    }
+    #ads {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin:2em;
+        padding:2em;
+        border: dashed;
     }
 }
