@@ -7,27 +7,27 @@ fetch(requestRentals)
     console.table(jsonObject);  
     const vehicles = jsonObject['vehicle'];
     for (let i = 0; i < vehicles.length; i++ ) {
-        let vehicle = document.createElement('tr');
-        vehicle.setAttribute("id","vehicle" + i);
-        vehicle.setAttribute("class","vehicle");
+    let vehicle = document.createElement('tr');
+    vehicle.setAttribute("id","vehicle" + i);
+    vehicle.setAttribute("class","vehicle");
 
-        let name = document.createElement('td');
-        name.setAttribute("class","vehiclename")
+    let name = document.createElement('td');
+    name.setAttribute("class","vehiclename")
 
-        let persons = document.createElement('td');
-        persons.setAttribute("class","persons")
+    let persons = document.createElement('td');
+    persons.setAttribute("class","persons")
 
-        let halfRes = document.createElement('td');
-        halfRes.setAttribute("class","halfRes");
+    let halfRes = document.createElement('td');
+    halfRes.setAttribute("class","halfRes");
 
-        let fullRes = document.createElement('td');
-        fullRes.setAttribute("class","fullRes");
+    let fullRes = document.createElement('td');
+    fullRes.setAttribute("class","fullRes");
 
-        let halfWalk = document.createElement('td');
-        halfWalk.setAttribute("class","halfWalk");
+    let halfWalk = document.createElement('td');
+    halfWalk.setAttribute("class","halfWalk");
 
-        let fullWalk = document.createElement('td');
-        fullWalk.setAttribute("class","fullWalk");
+    let fullWalk = document.createElement('td');
+    fullWalk.setAttribute("class","fullWalk");
 name.textContent = vehicles[i].rental;
 persons.textContent = vehicles[i].seats;
 halfRes.textContent = vehicles[i].rh; 

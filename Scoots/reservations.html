@@ -33,6 +33,7 @@
             </nav>
         </header>
         <main>
+          <div id="info2">
             <h3>Rental Information and Services</h3>
             <ul>
                 <li>A $50 security deposit is required to confirm reservations.</li>
@@ -46,6 +47,7 @@
                 <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
                 <li>Rentals may be returned to either location.</li>
             </ul>
+          </div>
             <div class="container">
                 <h2>Rental Agreement Form</h2>
                 <form action="thanks.html" method="GET">   
@@ -342,18 +344,11 @@
                         </select> 
                       </label> 
                       <br>
-                      <div class="">
-                        <h4>User in Danger</h4>
-                        <label class="sbs"><input type="radio" name="dangerlevel" value="Yes"> Yes </label>
-                        <br>
-                        <label class="sbs"><input type="radio" name="dangerlevel" value="No"> No </label>
-                        <br>
-                        <label class="sbs"><input type="radio" name="dangerlevel" value="Maybe"> Maybe </label>
-                      </div> 
                         <div>
-                        <h3>Additional Information</h3>
+                          <h3>Additional Information</h3>
+                        <p>Type here the additional information for your reservation</p>
+                        <p>(such as the need and location of a drop-off request)</p>
                         </div>
-                
                         <label class="top">
                           <textarea id="Ainfo" name="Ainfo" rows="5" ></textarea>
                         </label>
@@ -381,7 +376,6 @@
             </div>
         </footer>
         <script type="text/javascript" src="../script.js"></script>
-        <script src="js/forecast.js"></script>
         <script src="js/hamburger.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script src="js/carusel.js"></script>
