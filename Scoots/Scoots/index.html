@@ -27,11 +27,11 @@
         <nav>
             <ul class="navigation">
                 <li><a class="menu" href="#">&#9776; Menu</a></li>
-                <li><a class="active" href="https://rybitskyiorest.github.io/Scoots/index.html">Home</a></li>
-                <li><a href="https://rybitskyiorest.github.io/Scoots/rentals.html">Rentals</a></li>
-                <li><a href="https://rybitskyiorest.github.io/Scoots/reservations.html">Reservations</a></li>
-                <li><a href="https://rybitskyiorest.github.io/Scoots/tours.html">Tours</a></li>
-                <li><a href="https://rybitskyiorest.github.io/Scoots/contact.html">Contact</a></li>
+                <li><a class="active" href="/Scoots/index.html">Home</a></li>
+                <li><a href="/Scoots/rentals.html">Rentals</a></li>
+                <li><a href="/Scoots/reservations.html">Reservations</a></li>
+                <li><a href="/Scoots/tours.html">Tours</a></li>
+                <li><a href="/Scoots/contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -43,7 +43,7 @@
                 <img class="mySlides" src="images/s3.jpg" style="width:25vw" alt="scoots">
             </div>
             <button class="button"
-                onclick="document.location='https://rybitskyiorest.github.io/Scoots/reservations.html'">Rent these
+                onclick="document.location='/Scoots/reservations.html'">Rent these
                 Now!</button>
             <div class="slides2" style="max-width:500px">
                 <img class="mySlides2" src="images/c1.jpg" style="width:25vw" alt="car">
@@ -60,29 +60,29 @@
                 <p>Wind Speed: <span id="w">N/A</span></p>
             </div>
             <div>
-                <h2>Five Day Forecast</h2>
+                <h2>Three Day Forecast</h2>
                 <table>
                     <tr class="tbl">
                         <td id="dayofweek1"></td>
                         <td id="dayofweek2"></td>
                         <td id="dayofweek3"></td>
-                        <td id="dayofweek4"></td>
-                        <td id="dayofweek5"></td>
+                        <td class="hidden" id="dayofweek4"></td>
+                        <td class="hidden" id="dayofweek5"></td>
                     </tr>
                     <tr class="tbl">
                         <td><img src="images/Placeholder.png" alt="placeholder" id="icon1"></td>
                         <td><img src="images/Placeholder.png" alt="placeholder" id="icon2"></td>
                         <td><img src="images/Placeholder.png" alt="placeholder" id="icon3"></td>
-                        <td><img src="images/Placeholder.png" alt="placeholder" id="icon4"></td>
-                        <td><img src="images/Placeholder.png" alt="placeholder" id="icon5"></td>
+                        <td class="hidden"><img src="images/Placeholder.png" alt="placeholder" id="icon4"></td>
+                        <td class="hidden"><img src="images/Placeholder.png" alt="placeholder" id="icon5"></td>
 
                     </tr>
                     <tr class="tbl">
                         <td id="forecast1"></td>
                         <td id="forecast2"></td>
                         <td id="forecast3"></td>
-                        <td id="forecast4"></td>
-                        <td id="forecast5"></td>
+                        <td class="hidden" id="forecast4"></td>
+                        <td class="hidden" id="forecast5"></td>
                     </tr>
                 </table>
             </div>
@@ -147,7 +147,7 @@
             <br>
         </div>
     </footer>
-    <script type="text/javascript" src="../script.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
     <script src="js/carusel.js"></script>
     <script src="js/forecast.js"></script>
     <script src="js/hamburger.js"></script>

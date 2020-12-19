@@ -28,14 +28,14 @@ fetch(apiURL)
         document.getElementById('hu').textContent = jsObject.main.humidity + ' %'
         document.getElementById('w').textContent = Math.round(jsObject.wind.speed) + ' mph';
 
-        let request = new XMLHttpRequest();
-        request.open("GET", requestURL);
-        request.responseType = 'json';
-        request.send();
-        request.onload = function () {
-          let towndata = request.response;
-          showData(towndata);
-        }
+        // let request = new XMLHttpRequest();
+        // request.open("GET", requestURL);
+        // request.responseType = 'json';
+        // request.send();
+        // request.onload = function () {
+        //   let towndata = request.response;
+        //   showData(towndata);
+        // }
 
       })
   });

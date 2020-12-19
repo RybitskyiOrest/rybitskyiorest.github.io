@@ -47,5 +47,7 @@ fetch(requestRentals)
 const menubutton = document.querySelector('.menu');
 const mainnav = document.querySelector('.navBar');
 menubutton.addEventListener('click', () => {
-  mainnav.classList.toggle('responsive')
+  if (mainnav) {
+    mainnav.classList.toggle('responsive')
+  }
 }, false);
