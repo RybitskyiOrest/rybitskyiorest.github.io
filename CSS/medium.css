@@ -1,0 +1,22 @@
+@media (min-width: 32.5em) {
+#content {
+margin-left: 20%;
+margin-right: 20%;
+}    
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+header, footer {
+    border-radius: 30px;
+}
+p img {
+    width: 150px;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.75);
+    float: right;
+    border-radius: 30px;
+}
+}
