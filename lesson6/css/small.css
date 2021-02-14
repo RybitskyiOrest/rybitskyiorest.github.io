@@ -104,3 +104,7 @@ div.show {
 div.hide {
     display: none;
 }
+.navigation .active {
+    background-color: #eeaf1b ;
+    border: dotted;
+}
