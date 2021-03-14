@@ -16,7 +16,6 @@ h1, h2, h3, h4 {
     align-items: center;
     justify-content: center;
 }
-
 .content {
     padding: 1em;
     margin-bottom: 2em;
@@ -47,6 +46,10 @@ nav {
 .navigation a:hover {
 color: #bff0d4;
 background-color: #eeaf1b ;
+}
+.navigation .active {
+    background-color: #eeaf1b ;
+    border: dotted;
 }
 .responsive li {
     display: block;
