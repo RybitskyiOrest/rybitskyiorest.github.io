@@ -38,11 +38,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 } 
-.cards section:nth-child(6) img {
+.cards section:nth-child(3) img {
     grid-column: 2;
     align-items: center;
 }
-.cards section:nth-child(6) {
+.cards section:nth-child(3) {
     grid-auto-flow: row dense;  
 }
   }
