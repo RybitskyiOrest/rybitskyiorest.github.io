@@ -45,5 +45,4 @@
 .cards section:nth-child(3) {
     grid-auto-flow: row dense;  
 }
-
   }
