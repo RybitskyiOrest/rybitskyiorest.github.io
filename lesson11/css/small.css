@@ -186,3 +186,11 @@ div.hide {
 #rainp h3, p {
     text-align: center;
 }
+#ty {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color:  #bff0d4;
+}
