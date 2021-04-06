@@ -1,0 +1,51 @@
+{
+      "vehicle": [{
+                  "rental": "Honda Metro Scooter",
+                  "seats": "1",
+                  "rh": "$20",
+                  "rf": "$30",
+                  "wh": "$25",
+                  "wf": "$35"
+            },
+            {
+                  "rental": "Honda Dio Scooter",
+                  "seats": "2",
+                  "rh": "$30",
+                  "rf": "$40",
+                  "wh": "$35",
+                  "wf": "$45"
+            },
+            {
+                  "rental": "Honda PCX150 Scooter",
+                  "seats": "2",
+                  "rh": "$40",
+                  "rf": "$50",
+                  "wh": "$45",
+                  "wf": "$55"
+            },
+            {
+                  "rental": "Honda Pioneer ATV",
+                  "seats": "4",
+                  "rh": "$50",
+                  "rf": "$70",
+                  "wh": "$60",
+                  "wf": "$80"
+            },
+            {
+                  "rental": "Jeep Wrangler - 4 door with a/c",
+                  "seats": "5",
+                  "rh": "$70",
+                  "rf": "$100",
+                  "wh": "$85",
+                  "wf": "$125"
+            },
+            {
+                  "rental": "Jeep Wrangler - 2 Door",
+                  "seats": "4",
+                  "rh": "$60",
+                  "rf": "$85",
+                  "wh": "$70",
+                  "wf": "$90"
+            }
+      ]
+}
