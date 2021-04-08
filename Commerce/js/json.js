@@ -8,13 +8,13 @@ fetch(requestRentals)
     // console.table(jsonObject);
     let html = `<div id="my-list" class="grid-view" >`;
     for (let item of data.businesses) {
-      html += `<div style="display:flex;flex-direction:column;padding:12px;border:1px solid red;">`;
-      html += `<img src="${item.src}"/>`;
-      html += `<div>${item.title}</div>`;
+      html += `<div>`;
+      html += `<div><img src="${item.src}" style="width:100%;"/></div>`;
+      html += `<div><div>${item.title}</div>`;
       html += `<div>${item.email}</div>`;
       html += `<div>${item.phone}</div>`;
       html += `<div><a href="${item.link}" target="_blank">Website</a></div>`;
-      html += `<div>${item.description}</div>`;
+      html += `<div>${item.description}</div></div>`;
       html += `</div>`;
 
     }
