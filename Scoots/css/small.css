@@ -15,6 +15,22 @@ h4 {
   font-family: "Yeon Sung", serif;
 }
 
+.grid-view {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.list-view {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 350px;
+}
+
+.list-view > div {
+  max-width: 300px;
+}
+
 #logo {
   width: 18vw;
   border-radius: 100%;

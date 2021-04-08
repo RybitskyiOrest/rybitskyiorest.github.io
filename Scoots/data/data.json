@@ -1,51 +1,60 @@
 {
-      "vehicle": [{
-                  "rental": "Honda Metro Scooter",
-                  "seats": "1",
-                  "rh": "$20",
-                  "rf": "$30",
-                  "wh": "$25",
-                  "wf": "$35"
-            },
-            {
-                  "rental": "Honda Dio Scooter",
-                  "seats": "2",
-                  "rh": "$30",
-                  "rf": "$40",
-                  "wh": "$35",
-                  "wf": "$45"
-            },
-            {
-                  "rental": "Honda PCX150 Scooter",
-                  "seats": "2",
-                  "rh": "$40",
-                  "rf": "$50",
-                  "wh": "$45",
-                  "wf": "$55"
-            },
-            {
-                  "rental": "Honda Pioneer ATV",
-                  "seats": "4",
-                  "rh": "$50",
-                  "rf": "$70",
-                  "wh": "$60",
-                  "wf": "$80"
-            },
-            {
-                  "rental": "Jeep Wrangler - 4 door with a/c",
-                  "seats": "5",
-                  "rh": "$70",
-                  "rf": "$100",
-                  "wh": "$85",
-                  "wf": "$125"
-            },
-            {
-                  "rental": "Jeep Wrangler - 2 Door",
-                  "seats": "4",
-                  "rh": "$60",
-                  "rf": "$85",
-                  "wh": "$70",
-                  "wf": "$90"
-            }
-      ]
+  "businesses": [
+    {
+      "title": "Panorama Club",
+      "src": "./images/logo1.png",
+      "link": "http://panclub.com.ua/",
+      "email": "info@panclub.com.ua",
+      "phone": "(0342) 71-12-04",
+      "description": "Bowling 9 bowling lanes of European standard on modern equipment and with the appropriate level of service and sports and entertainment content. Karaoke is a holiday ..."
+    },
+    {
+      "title": "Restaurant `Desyatka`",
+      "src": "./images/logo2.png",
+      "link": "https://www.beerclub10.if.ua/",
+      "email": "desyatka.if@gmail.com",
+      "phone": "(050) 373 8202",
+      "description": "Restaurant of comfortable food \"DESYATKA\" and Bistro"
+    },
+    {
+      "title": "Roller Сlub",
+      "src": "./images/logo3.png",
+      "link": "https://roliki.ua/blogs/rolerdomi/rollerdrom-roller-club/",
+      "email": "seo@roliki.ua",
+      "phone": "093-130-36-36",
+      "description": "Dear guests! Come to us and enjoy incredible sensations, positive and drive! Roller club invites both little skaters and their parents to go rollerblading, remember childhood."
+    },
+    {
+      "title": "Aquapark `Tsunami`",
+      "src": "./images/logo4.png",
+      "link": "http://cunami.com.ua/akvapark.html",
+      "email": "cunami.if@gmail.com",
+      "phone": "(0342) 71 40 70",
+      "description": "Do you have any plans for tonight? Our aquapark has many fun things to do for the autience of any age, starting from children ending with the elderly."
+    },
+    {
+      "title": "Chubi-Boom",
+      "src": "./images/logo5.png",
+      "link": "https://chubi-boom.com/",
+      "email": "cubibum@gmail.com",
+      "phone": "098 600 99 33",
+      "description": "We organize the best birthday celebration for your child in a convenient location for you!"
+    },
+    {
+      "title": "Nadiya",
+      "src": "./images/logo6.png",
+      "link": "https://www.nadiyahotel.com/",
+      "email": "res@nadiyahotel.com",
+      "phone": "+380504337522",
+      "description": "Comfortable hotel in the center of Ivano-Frankivsk. 24-hour parking with security. Great service and reasonable prices, delicious breakfasts, fast wi-fi."
+    },
+    {
+      "title": "Movie Theater `Lumiere` ",
+      "src": "./images/logo7.png",
+      "link": "https://www.kinolumiere.com/",
+      "email": "kinolumiere.reklama@gmail.com",
+      "phone": "(096) 050 5051",
+      "description": "During the times of COVID-19 we offer many online services and will be soon open for the public!"
+    }
+  ]
 }

@@ -3,6 +3,10 @@
         display: flex;
     }
 
+    .grid-view {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
     .navigation li {
         display: block;
         flex: 1 1 auto;

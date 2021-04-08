@@ -1,5 +1,6 @@
 var myIndex = 0;
 var myIndex1 = 0;
+var hasStarted = false;
 carousel();
 carousel1();
 
@@ -18,7 +19,8 @@ function carousel() {
 
   if (x && x[myIndex - 1]) {
     x[myIndex - 1].style.display = "block";
-    setTimeout(carousel, 3000); // Change image every 3 seconds
+    setTimeout(carousel, hasStarted ? 3000 : 1500); // Change image every 3 seconds
+    hasStarted = true;
   }
 }
 

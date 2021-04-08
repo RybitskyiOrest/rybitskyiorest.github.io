@@ -1,32 +1,59 @@
-const requestRentals = 'data/data.json';
+const requestRentals = "data/data.json";
+
 fetch(requestRentals)
   .then(function (response) {
     return response.json();
   })
-  .then(function (jsonObject) {
-    console.table(jsonObject);
-    const vehicles = jsonObject['vehicle'];
+  .then(function (data) {
+    // console.table(jsonObject);
+    let html = `<div id="my-list" class="grid-view" >`;
+    for (let item of data.businesses) {
+      html += `<div style="display:flex;flex-direction:column;padding:12px;border:1px solid red;">`;
+      html += `<img src="${item.src}"/>`;
+      html += `<div>${item.title}</div>`;
+      html += `<div>${item.email}</div>`;
+      html += `<div>${item.phone}</div>`;
+      html += `<div><a href="${item.link}" target="_blank">Website</a></div>`;
+      html += `<div>${item.description}</div>`;
+      html += `</div>`;
+
+    }
+    html += `</ul>`;
+    document.querySelector("#content").innerHTML = html;
+    
+    document.querySelector("#grid-view-button").addEventListener("click", (_) => {
+      document.querySelector("#my-list").classList.remove("list-view");
+      document.querySelector("#my-list").classList.add("grid-view");
+    })
+    
+    document.querySelector("#list-view-button").addEventListener("click", (_) => {
+      document.querySelector("#my-list").classList.remove("grid-view");
+      document.querySelector("#my-list").classList.add("list-view");
+    })
+
+    return;
+    const vehicles = jsonObject["vehicle"];
     for (let i = 0; i < vehicles.length; i++) {
-      let vehicle = document.createElement('tr');
+      let vehicle = document.createElement("tr");
       vehicle.setAttribute("id", "vehicle" + i);
       vehicle.setAttribute("class", "vehicle");
 
-      let name = document.createElement('td');
-      name.setAttribute("class", "vehiclename")
+      let name = document.createElement("td");
+      name.setAttribute("class", "vehiclename");
 
-      let persons = document.createElement('td');
-      persons.setAttribute("class", "persons")
+      let persons = document.createElement("td");
+      persons.setAttribute("class", "persons");
 
-      let halfRes = document.createElement('td');
+      let halfRes = document.createElement("td");
       halfRes.setAttribute("class", "halfRes");
 
-      let fullRes = document.createElement('td');
+      let fullRes = document.createElement("td");
       fullRes.setAttribute("class", "fullRes");
 
-      let halfWalk = document.createElement('td');
+      let halfWalk = document.createElement("td");
       halfWalk.setAttribute("class", "halfWalk");
 
-      let fullWalk = document.createElement('td');
+      let fullWalk = document.createElement("td");
       fullWalk.setAttribute("class", "fullWalk");
       name.textContent = vehicles[i].rental;
       persons.textContent = vehicles[i].seats;
@@ -41,13 +68,17 @@ fetch(requestRentals)
       vehicle.appendChild(fullRes);
       vehicle.appendChild(halfWalk);
       vehicle.appendChild(fullWalk);
-      document.querySelector('tbody').appendChild(vehicle);
+      document.querySelector("tbody").appendChild(vehicle);
     }
   });
-const menubutton = document.querySelector('.menu');
-const mainnav = document.querySelector('.navBar');
-menubutton.addEventListener('click', () => {
-  if (mainnav) {
-    mainnav.classList.toggle('responsive')
-  }
-}, false);
+const menubutton = document.querySelector(".menu");
+const mainnav = document.querySelector(".navBar");
+menubutton.addEventListener(
+  "click",
+  () => {
+    if (mainnav) {
+      mainnav.classList.toggle("responsive");
+    }
+  },
+  false
+);
